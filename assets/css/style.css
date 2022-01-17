@@ -1,0 +1,168 @@
+
+body{
+    background: url(/assets/img/daniel-gregoire-N7dsOPLDk9I-unsplash.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60vw;
+    height: 80vh;
+}
+.login__Textos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2vw;
+    width: 25vw;
+}
+.login__h2{
+    font-size: 2rem;
+    font-family: 'Sora', sans-serif;
+}
+.login__h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#email{
+    border: 1px solid black;
+    height: 2rem;
+    box-shadow: 1px 1px 5px;
+}
+#senha{
+    border: 1px solid black;
+    height: 2rem;
+    box-shadow: 1px 1px 5px;
+}
+.inputs__email{
+    font-size: 1.3rem;
+    font-family: 'Sora', sans-serif;
+
+}
+.inputs__senha{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-family: 'Sora', sans-serif;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.entrar{
+    background-color: #04C35C;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+}
+.entrar:hover{
+    background-color: rgb(63, 238, 145);
+    box-shadow: 1px 1px 10px;
+    transition: 1s all;
+}
+.google{
+    background-color: #1A202C;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    gap: 0.2rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+}
+.google:hover{
+    background-color: #282e38;
+    box-shadow: 1px 1px 10px;
+    transition: 1s all;
+}
+.esqueci__senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.link__esqueciSenha{
+    color: rgb(83, 83, 255);
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+}
+.cadastrar{
+    color: rgb(83, 83, 255);
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+}
+.lembrar{
+    font-size: 1.2rem;
+    font-family: 'Sora', sans-serif;
+}
+.arte{
+    background: url(/assets/img/europeana-Agwv1mKDUnc-unsplash.jpg) no-repeat top;
+    background-size: cover;
+    width: 50%;
+    height: 90%;
+    box-shadow: -1px -1px 10px;
+}
+@keyframes fotos{
+    0%{
+        background: url(/assets/img/lukas-meier-aAxn9pYE8L0-unsplash.jpg)no-repeat top;
+    background-size: cover;
+    }
+    25%{
+        background: url(/assets/img/agatha-depine-_wf-ubkK9jE-unsplash.jpg)no-repeat top;
+    background-size: cover;
+    }
+    50%{
+        background: url(/assets/img/europeana-84R6ipsqaxo-unsplash.jpg)no-repeat top;
+    background-size: cover;
+    }
+    75%{
+        background: url(/assets/img/jr-korpa--g-vfP1hpuQ-unsplash.jpg)no-repeat top;
+    background-size: cover;
+    }
+    100%{
+        background: url(/assets/img/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg)no-repeat top;
+    background-size: cover;
+    }
+}
+
+.arte:hover{
+    animation: fotos 2s infinite;
+    transition: 2s all;
+}
+@media (max-width: 1000px){
+    .arte{
+        display: none;
+    }
+    .login__Textos{
+        width: 100vw;
+        padding: 5rem;
+        box-sizing: border-box;
+    }
+}
