@@ -125,6 +125,7 @@ body{
 .arte{
     background: url(../img/europeana-Agwv1mKDUnc-unsplash.jpg) no-repeat top;
     background-size: cover;
+    cursor: pointer;
     width: 50%;
     height: 90%;
     box-shadow: -1px -1px 10px;
@@ -162,7 +163,17 @@ body{
     }
     .login__Textos{
         width: 100vw;
-        padding: 5rem;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: 0) and (max-width: 500px){
+    .arte{
+        display: none;
+    }
+    .login__Textos{
+        width: 100vw;
+        padding: 1rem;
         box-sizing: border-box;
     }
 }
