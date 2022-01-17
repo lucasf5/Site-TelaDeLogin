@@ -1,6 +1,6 @@
 
 body{
-    background: url(/assets/img/daniel-gregoire-N7dsOPLDk9I-unsplash.jpg) no-repeat;
+    background: url(../img/daniel-gregoire-N7dsOPLDk9I-unsplash.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -123,7 +123,7 @@ body{
     font-family: 'Sora', sans-serif;
 }
 .arte{
-    background: url(/assets/img/europeana-Agwv1mKDUnc-unsplash.jpg) no-repeat top;
+    background: url(../img/europeana-Agwv1mKDUnc-unsplash.jpg) no-repeat top;
     background-size: cover;
     width: 50%;
     height: 90%;
@@ -131,23 +131,23 @@ body{
 }
 @keyframes fotos{
     0%{
-        background: url(/assets/img/lukas-meier-aAxn9pYE8L0-unsplash.jpg)no-repeat top;
+        background: url(../img/lukas-meier-aAxn9pYE8L0-unsplash.jpg)no-repeat top;
     background-size: cover;
     }
     25%{
-        background: url(/assets/img/agatha-depine-_wf-ubkK9jE-unsplash.jpg)no-repeat top;
+        background: url(../img/agatha-depine-_wf-ubkK9jE-unsplash.jpg)no-repeat top;
     background-size: cover;
     }
     50%{
-        background: url(/assets/img/europeana-84R6ipsqaxo-unsplash.jpg)no-repeat top;
+        background: url(../img/europeana-84R6ipsqaxo-unsplash.jpg)no-repeat top;
     background-size: cover;
     }
     75%{
-        background: url(/assets/img/jr-korpa--g-vfP1hpuQ-unsplash.jpg)no-repeat top;
+        background: url(../img/jr-korpa--g-vfP1hpuQ-unsplash.jpg)no-repeat top;
     background-size: cover;
     }
     100%{
-        background: url(/assets/img/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg)no-repeat top;
+        background: url(../img/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg)no-repeat top;
     background-size: cover;
     }
 }
