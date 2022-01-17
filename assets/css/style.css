@@ -177,17 +177,3 @@ body{
         box-sizing: border-box;
     }
 }
-@media (max-width: 400px){
-    .arte{
-        display: none;
-    }
-    .login__Textos{
-        width: 90vw;
-        box-sizing: border-box;
-    }
-    .login{
-        width: 100vw;
-        height: 80vh;
-}
-
-}
