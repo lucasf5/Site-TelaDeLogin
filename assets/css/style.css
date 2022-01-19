@@ -167,9 +167,13 @@ body{
         box-sizing: border-box;
     }
 }
-@media (min-width: 0) and (max-width: 500px){
+@media (min-width: 0) and (max-width: 654px){
     .arte{
         display: none;
+    }
+    .login{
+        height: 98vh;
+        width: 80vw;
     }
     .login__Textos{
         width: 100vw;
